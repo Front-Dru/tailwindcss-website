@@ -1,0 +1,24 @@
+{
+  "name": "tailwindcss-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+    "prettier": "npx prettier --write **/*.html "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Front-Dru/tailwindcss-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Front-Dru/tailwindcss-website/issues"
+  },
+  "homepage": "https://github.com/Front-Dru/tailwindcss-website#readme",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.1.13"
+  }
+}
